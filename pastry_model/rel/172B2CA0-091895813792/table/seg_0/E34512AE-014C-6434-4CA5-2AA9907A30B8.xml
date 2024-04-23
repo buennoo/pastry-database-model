@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E34512AE-014C-6434-4CA5-2AA9907A30B8" name="RecepturaSkladnika">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<ordsAlias>relation_8</ordsAlias>
+<abbreviation>RecSkl</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Skladniki_ID" id="18CDB7C5-05AA-BB0B-6F7F-F9B5FADBDAB9">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30D4AB72-8407-9146-B87A-8B7A6814D41E" referredColumn="A43AA3CD-259D-D2BF-D171-7E469211E659"/>
+</associations>
+</Column>
+<Column name="Receptury_ID" id="4A91C896-EC59-7CAF-AB6C-52CB41EAFA9F">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00ECE01C-94A7-0D4D-AA45-37A800DFEEFE" referredColumn="27B76675-11FA-82E1-C294-065FBC1DAF82"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EEBDF66-E93A-F410-33D5-5B791A633C5A" name="RecSkl_PK">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18CDB7C5-05AA-BB0B-6F7F-F9B5FADBDAB9"/>
+<colUsage columnID="4A91C896-EC59-7CAF-AB6C-52CB41EAFA9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69627C6B-231D-A0D0-5F61-925BD05275DC" name="RecSkl_Skladniki_FK">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>20EEF6E7-001D-F7E0-7412-DBF39C519EA4</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18CDB7C5-05AA-BB0B-6F7F-F9B5FADBDAB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E0A2790-D59D-9472-B483-FF5F64B74C40" name="RecSkl_Receptury_FK">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>20EEF6E7-001D-F7E0-7412-DBF39C519EA4</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A91C896-EC59-7CAF-AB6C-52CB41EAFA9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

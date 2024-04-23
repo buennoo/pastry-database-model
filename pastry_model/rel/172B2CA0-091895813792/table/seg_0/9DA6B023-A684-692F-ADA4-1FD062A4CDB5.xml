@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DA6B023-A684-692F-ADA4-1FD062A4CDB5" name="DostawaDostawcy">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<ordsAlias>relation_12</ordsAlias>
+<abbreviation>DostDscy</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Dostawy_ID" id="46B55734-A81A-9976-6A71-E519BFF4BCBE">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EF0596E-50CB-C21B-6452-7567D8879119" referredColumn="8A60DF44-6550-211E-5720-41891D7F340E"/>
+</associations>
+</Column>
+<Column name="Dostawcy_ID" id="63845312-8A97-B01B-B163-889938AE576E">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C86853E6-596E-1E5C-E942-2155960E7325" referredColumn="E80AB8B9-21BE-5B10-7D27-968A37DE08A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9515092C-D28B-ABB4-BEB5-90739DA20E5F" name="DostDscy_PK">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46B55734-A81A-9976-6A71-E519BFF4BCBE"/>
+<colUsage columnID="63845312-8A97-B01B-B163-889938AE576E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC1BDA47-1E47-86A8-E61A-45DE7F4F83DF" name="DostDscy_Dostawy_FK">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>87487BE3-8484-B629-CADB-5CE9B04BF7EC</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46B55734-A81A-9976-6A71-E519BFF4BCBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F58303F6-6641-68E1-2880-CAEE07F17375" name="DostDscy_Dostawcy_FK">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>87487BE3-8484-B629-CADB-5CE9B04BF7EC</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63845312-8A97-B01B-B163-889938AE576E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

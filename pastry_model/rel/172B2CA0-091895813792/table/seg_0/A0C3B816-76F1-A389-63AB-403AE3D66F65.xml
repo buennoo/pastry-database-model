@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0C3B816-76F1-A389-63AB-403AE3D66F65" name="Miejscowosci">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>47D1E785-75E8-8751-AD15-498962AFE5B0</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<abbreviation>MI</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F2698960-3099-0529-4BED-661D5E733E7B">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>AC3812A2-74FA-3835-A203-0F198DF7B6E0</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="449B9296-63F1-5A00-52A3-88A50419FF12">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>AE3CC1E7-CFF9-9370-492A-AD0AACEF6E74</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kraj" id="0E7456DF-AA16-998E-B575-88527878B65A">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>6AB96E03-66B4-B4F2-7E74-EC012B9F2420</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EA31A21-DDD4-12C9-DD6A-0B2701D0CC81" name="Miejscowosci_PK">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>1F08B607-0216-3232-5E11-AAC344FA5A8C</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2698960-3099-0529-4BED-661D5E733E7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

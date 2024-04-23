@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BD4A7A2-214B-5DB6-6953-1E425B8BF589" name="Dostawy">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>3350EB1D-96EA-957F-B129-2B764230CBD7</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<abbreviation>DOS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="8A60DF44-6550-211E-5720-41891D7F340E">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>7DAC59B8-6AD6-E470-3BEC-FEC214EB3758</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_dostawy" id="93742E7D-7F25-7B95-BD1E-632DF6690BE5">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>D8C08908-DA43-1064-6A59-F2816C46EA83</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ilosc" id="E96AFCB7-540D-C3CA-52AA-481D8030D81F">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>D5B77C01-8B3F-F0A5-6588-4EB5DE4A1086</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="koszt" id="48B5A9FA-0B4F-0C1B-3B28-C5103765D7D8">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>3C0A5CC1-0643-E8D1-1AD5-D3B014D46135</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Skladniki_ID" id="F198229C-5E7E-6A0A-D11B-25B9FBACB515">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>366BEAE0-2421-16A9-23F1-B8C98F6A0113</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="901A7A09-E161-A5E3-1E9A-5F19FF3FD77B" referredColumn="A43AA3CD-259D-D2BF-D171-7E469211E659"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2775150C-5EB9-C81A-93CC-EA556C782AF8" name="Dostawy_PK">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>B9F7FCF2-774C-792D-DE01-2B52E3B1FED3</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A60DF44-6550-211E-5720-41891D7F340E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B540024-D4CE-BB01-FE22-CCC667B112A7" name="Dostawy_Skladniki_FK">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>7D512F1B-8D69-7BBA-E709-832FB491FC07</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F198229C-5E7E-6A0A-D11B-25B9FBACB515"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

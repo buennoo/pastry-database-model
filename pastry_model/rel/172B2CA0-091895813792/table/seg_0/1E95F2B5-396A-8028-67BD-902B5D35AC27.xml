@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E95F2B5-396A-8028-67BD-902B5D35AC27" name="Pracownicy">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>D96F3FB0-1CA1-2258-2B98-0A0138F6AD5C</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<abbreviation>PR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D9BBE129-2986-11C0-2F0A-F4A0F4B0B778">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>C25218A4-7791-B79F-9921-977CE9113BF5</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imie" id="195DABAA-1482-0A05-0A27-11F962EF035B">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>DC251BE5-5E41-8AA3-7F50-EC8089F36AB1</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="EE107D8C-57D5-FB41-0351-58135628B780">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>940FB553-B278-CF04-42F5-5F2D47166508</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stanowisko" id="FAE27315-CEAA-33E2-9C43-8C6E4CD0833B">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>CAE002CA-3735-C8CF-7478-8D837E63A673</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="placa" id="14B05BB9-69A1-1877-58AB-F827F07FBE46">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>DC6ABD8D-3DD3-DB16-1F2E-30CE5FD81176</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_zatrudnienia" id="24FA2194-3A02-45E9-31A6-0A9AE8C83491">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>B9C0149E-9A13-DEC3-9F9F-ED050D4D6011</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zespoly_ID" id="2674BE85-E995-19F3-905B-C9512B87F41C">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>3DD25291-A062-7033-B7EE-75131249397B</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1872A1D-04D5-5628-8E43-71682D67F0FE" referredColumn="218E0C4B-D83E-62B4-BEEB-BF0836E54E37"/>
+</associations>
+</Column>
+<Column name="Miejscowosci_ID" id="989C71F5-C5AD-126D-E1B6-4FC1739F4BD4">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>11665678-7E76-6F2E-A349-5CB89104CEB3</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDD44931-965F-A997-327A-3E215AC363A1" referredColumn="F2698960-3099-0529-4BED-661D5E733E7B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B62DEAC-C576-7558-EEDE-A0F56D0F721C" name="Pracownicy_PK">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>926BAE99-487F-7EDC-C346-B9C82C9D194E</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9BBE129-2986-11C0-2F0A-F4A0F4B0B778"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0100C581-6433-0CB8-9529-C578925EE318" name="Pracownicy_Miejscowosci_FK">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>5C4732CC-EAB5-D75A-EF20-893C78435BEA</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="989C71F5-C5AD-126D-E1B6-4FC1739F4BD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="321D2DCE-00DC-E797-05A3-5717D3099532" name="Pracownicy_Zespoly_FK">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>D8E177E8-29B1-775E-B85E-133D724BD238</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2674BE85-E995-19F3-905B-C9512B87F41C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

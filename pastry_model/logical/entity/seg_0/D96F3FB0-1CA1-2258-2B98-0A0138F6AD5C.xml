@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D96F3FB0-1CA1-2258-2B98-0A0138F6AD5C" name="Pracownicy">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:16:25 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Pracownicy</preferredAbbreviation>
+<shortName>PR</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="C25218A4-7791-B79F-9921-977CE9113BF5">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:16:35 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imie" id="DC251BE5-5E41-8AA3-7F50-EC8089F36AB1">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:16:44 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwisko" id="940FB553-B278-CF04-42F5-5F2D47166508">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:17:00 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stanowisko" id="CAE002CA-3735-C8CF-7478-8D837E63A673">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:17:09 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="placa" id="DC6ABD8D-3DD3-DB16-1F2E-30CE5FD81176">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:17:21 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data zatrudnienia" id="B9C0149E-9A13-DEC3-9F9F-ED050D4D6011">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:17:53 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zespoly ID" id="3DD25291-A062-7033-B7EE-75131249397B">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:42:39 UTC</createdTime>
+<generatorID>D8E177E8-29B1-775E-B85E-133D724BD238</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<referedAttribute>D9788BA0-0A44-4614-4503-811A20FA2240</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Miejscowosci ID" id="11665678-7E76-6F2E-A349-5CB89104CEB3">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:47:22 UTC</createdTime>
+<generatorID>5C4732CC-EAB5-D75A-EF20-893C78435BEA</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<referedAttribute>AC3812A2-74FA-3835-A203-0F198DF7B6E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="926BAE99-487F-7EDC-C346-B9C82C9D194E" name="Pracownicy_PK">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:16:41 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C25218A4-7791-B79F-9921-977CE9113BF5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

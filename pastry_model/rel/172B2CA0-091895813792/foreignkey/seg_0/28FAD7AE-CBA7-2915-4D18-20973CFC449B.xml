@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="28FAD7AE-CBA7-2915-4D18-20973CFC449B" containerWithKeyObject="C63B09C5-8739-99D0-0F80-7686E0886630" localFKIndex="9177F95D-B4D7-B27C-AB35-1FF0A9CBC7E9" name="Produkty_Receptury_FK">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>9CDF7D0A-EBD2-1189-4A10-5295A409167B</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<referredTableLongName>Receptury</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>720EA9AB-E9AB-E5EF-E352-6E614912EC29</referredTableID>
+<keyObject>C00BA0FD-D2BF-ADCB-F41F-6EB8EE00D93C</keyObject>
+<referredKeyID>C00BA0FD-D2BF-ADCB-F41F-6EB8EE00D93C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

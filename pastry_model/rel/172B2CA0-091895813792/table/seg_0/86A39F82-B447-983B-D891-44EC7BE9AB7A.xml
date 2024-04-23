@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86A39F82-B447-983B-D891-44EC7BE9AB7A" name="ProduktZamowienia">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<ordsAlias>relation_2</ordsAlias>
+<abbreviation>PrdZam</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zamowienia_ID" id="B755B124-B737-143C-0B43-2EC19F989D90">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4E48D7F-DB85-BCCB-C86C-6D0EDD2DA58F" referredColumn="434B7BB2-F45D-90CA-D862-6F9F9548F351"/>
+</associations>
+</Column>
+<Column name="Produkty_ID" id="41CC10E4-204B-B77A-9FD0-1935CEA10708">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D1F5171-2496-D5CE-0A1F-52E67D051894" referredColumn="088E9897-46A8-A493-D5FF-907D04FB53AF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ACAF3B0D-460C-4A90-98D4-2B3F88710563" name="PrdZam_PK">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B755B124-B737-143C-0B43-2EC19F989D90"/>
+<colUsage columnID="41CC10E4-204B-B77A-9FD0-1935CEA10708"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="529621F8-478F-F551-75DD-210EBC74EDCD" name="PrdZam_Zamowienia_FK">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>45D68B96-196A-8E50-617D-938C593C08C8</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B755B124-B737-143C-0B43-2EC19F989D90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1A02FD2-4542-3FA8-D026-780E5389BDCC" name="PrdZam_Produkty_FK">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:57:14 UTC</createdTime>
+<generatorID>45D68B96-196A-8E50-617D-938C593C08C8</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41CC10E4-204B-B77A-9FD0-1935CEA10708"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

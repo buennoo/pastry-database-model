@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zamowienia Klienci FK" directorySegmentName="seg_0" id="0970FE47-C9EA-87C1-4C1B-2A84D2787DFB">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:33:57 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<sourcePk>0BC96C34-BDC6-9BBD-2D28-93FF1B02622E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0CC81C05-66CF-5A00-EA8D-F9B7145DFA29</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DD4493C5-A3A2-F07F-C5EA-BB30F351E614</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

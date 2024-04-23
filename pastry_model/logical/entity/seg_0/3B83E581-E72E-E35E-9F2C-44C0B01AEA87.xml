@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3B83E581-E72E-E35E-9F2C-44C0B01AEA87" name="Receptury">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:13:01 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Receptury</preferredAbbreviation>
+<shortName>RE</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="9F4B57A7-B0A0-7B36-0F25-25B70F89ED1C">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:13:15 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa" id="EBA77AC0-D076-AAA4-8861-2FE48DBC8EFE">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:13:23 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wariant" id="1EE34EB5-61F6-278D-2401-B07183CBA67A">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:14:13 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data utworzenia" id="6690EE90-CC5B-F99D-8343-67E18901BBBC">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:15:05 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="notatki" id="7A1932BB-380C-C355-D4E1-F75B8E0C07DE">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:15:45 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kategorie ID" id="C86708D4-0823-EFDF-072A-696504DC4881">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:44:06 UTC</createdTime>
+<generatorID>59811AD9-DDC1-2AAF-144E-710170539436</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<referedAttribute>56D701AE-A6EB-227F-82F5-AF75EC9F3CB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B1ACE741-26E0-C4B7-80FC-6A9E8ABF357C" name="Receptury_PK">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:13:22 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9F4B57A7-B0A0-7B36-0F25-25B70F89ED1C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

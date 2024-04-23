@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pracownicy Zespoly FK" directorySegmentName="seg_0" id="D8E177E8-29B1-775E-B85E-133D724BD238">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:42:39 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<sourcePk>0FE8624F-981E-378C-533F-83A307A2C948</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9B88F449-7DEF-7835-B9C9-966BE3B54C3B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D96F3FB0-1CA1-2258-2B98-0A0138F6AD5C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

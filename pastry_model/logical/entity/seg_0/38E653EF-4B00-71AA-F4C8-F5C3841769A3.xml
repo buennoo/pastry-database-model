@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="38E653EF-4B00-71AA-F4C8-F5C3841769A3" name="Dostawcy">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:08:11 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Dostawcy</preferredAbbreviation>
+<shortName>DO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="C8044E1A-5435-ED4E-0963-78DCA53CA6EA">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:08:25 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa" id="4F489E0A-0D17-4B67-65E1-315B3990122F">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:08:35 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numer tel" id="1F5EBAD6-1421-B33D-CEDB-119A708ADD9B">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:08:46 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Miejscowosci ID" id="C8037512-403F-AB18-6D92-3C14100FACBF">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:43:15 UTC</createdTime>
+<generatorID>6C8062B5-1C81-D49B-0014-4870645228B1</generatorID>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<referedAttribute>AC3812A2-74FA-3835-A203-0F198DF7B6E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="58A401E0-8A5B-2202-11A6-B6D795422CDC" name="Dostawcy_PK">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:08:34 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C8044E1A-5435-ED4E-0963-78DCA53CA6EA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

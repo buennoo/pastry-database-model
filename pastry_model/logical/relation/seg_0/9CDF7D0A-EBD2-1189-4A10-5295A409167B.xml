@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Produkty Receptury FK" directorySegmentName="seg_0" id="9CDF7D0A-EBD2-1189-4A10-5295A409167B">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:39:17 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<sourcePk>B1ACE741-26E0-C4B7-80FC-6A9E8ABF357C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3B83E581-E72E-E35E-9F2C-44C0B01AEA87</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>353F467D-47F8-58B6-0479-9D2BBBBDC16C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="pastry_model" id="C89230CE-3249-F1E4-1BB1-CF40C285F031" version="3.5">
+<createdBy>izara</createdBy>
+<createdTime>2024-02-29 09:00:12 UTC</createdTime>
+<ownerDesignName>pastry_sh</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C89230CE-3249-F1E4-1BB1-CF40C285F031</designId>
+</OSDM_Design>

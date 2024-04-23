@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Dostawy Skladniki FK" directorySegmentName="seg_0" id="7D512F1B-8D69-7BBA-E709-832FB491FC07">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:46:43 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<sourcePk>5F13E399-25A7-91E8-B7F7-418D51886A4E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>968B7B71-457A-A0DA-37C9-307E1D7BDF81</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3350EB1D-96EA-957F-B129-2B764230CBD7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

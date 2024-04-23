@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RecepturaSkladnika" directorySegmentName="seg_0" id="20EEF6E7-001D-F7E0-7412-DBF39C519EA4">
+<createdBy>izara</createdBy>
+<createdTime>2024-03-01 09:40:58 UTC</createdTime>
+<ownerDesignName>pastry_model</ownerDesignName>
+<engineerTo>
+<item key="172B2CA0-CAA7-6C7B-9E91-091895813792" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>968B7B71-457A-A0DA-37C9-307E1D7BDF81</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3B83E581-E72E-E35E-9F2C-44C0B01AEA87</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
